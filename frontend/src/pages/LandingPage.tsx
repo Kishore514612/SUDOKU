@@ -72,9 +72,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartNewGame, onCont
             S U D O K U
           </h1>
         </div>
-        <p className="text-xs sm:text-sm text-slate-400 mb-8 max-w-xs mx-auto">
-          Navigate celestial number grids through deep space logic.
-        </p>
 
         {/* Difficulty Selection Buttons */}
         <div className="mb-6 text-left">
@@ -155,8 +152,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartNewGame, onCont
 
         {/* Footer info */}
         <div className="mt-8 pt-4 border-t border-white/5 flex items-center justify-center gap-4 text-[11px] text-slate-500">
-          <span>Member 1: Core Gameplay Engine</span>
-          <span>•</span>
           <span>Spring Boot + React</span>
         </div>
       </div>
